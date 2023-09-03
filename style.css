@@ -32,3 +32,33 @@ body {
 .job {
     text-align: center;
 }
+
+.skills-top {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.skills-bottom {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.skills {
+    font-size: 27px;
+}
+
+.background {
+    font-size: 27px;
+}
+
+.connect {
+    font-size: 27px;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: circle;
+}
