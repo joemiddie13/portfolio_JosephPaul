@@ -39,22 +39,17 @@ body {
     text-align: center;
 }
 
-.skills-top {
-    display: flex;
-    justify-content: space-evenly;
+.skills-list {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    grid-template-areas: "h h h";
     list-style: none;
-    font-size: 20px;
-}
-
-.skills-bottom {
-    display: flex;
-    justify-content: space-evenly;
-    list-style: none;
-    font-size: 20px;
 }
 
 .skills {
     font-size: 25px;
+    padding: 5px;
 }
 
 .background {
